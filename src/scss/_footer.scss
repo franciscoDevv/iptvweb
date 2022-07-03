@@ -1,0 +1,25 @@
+.footer {
+    margin-top: 70px;
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: $primary;
+}
+
+.footer div {
+    margin: 30px;
+    text-align: center;
+    color: 000;
+}
+
+.footer div a {
+    margin: 5px;
+}
+
+.footer div a img {
+    height: 40px;
+}
+

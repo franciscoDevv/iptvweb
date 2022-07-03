@@ -1,0 +1,29 @@
+// 3 Columns Section
+.info {
+    background-color: $dark;
+    display: flex;
+    height: 60vh;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+
+.info div {
+    width: 30%;
+    margin: 10px;
+}
+
+.info div img {
+    margin: auto;
+}
+
+span {
+    color: $primary;
+}
+
+a {
+    color: $primary;
+}

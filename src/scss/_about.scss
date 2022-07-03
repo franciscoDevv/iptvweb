@@ -1,0 +1,25 @@
+//   About
+.whatis {
+    height: 80vh;
+    width: 100%;
+    background-color: $dark;
+}
+
+.container {
+    padding-top: 75px;
+    background-color: $dark;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div {
+    margin: 20px;
+    width: 50%;
+    color: #fff;
+}
+
+.container div img {
+    border-radius: 15px;
+}
