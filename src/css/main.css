@@ -165,35 +165,31 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-  .body {
-    width: 600px;
-  }
-
   .bg-image {
-    width: 600px;
+    width: 100%;
   }
 
-  .bg-text {
-    margin-left: 60px;
+  .container {
+    width: 80%;
   }
 
-  .whatis {
-    width: 600px;
+  .describe {
+    width: 80%;
   }
 
   .container {
     flex-direction: column;
-    width: 600px;
+    width: 100%;
   }
 
   .info {
-    margin-top: 200px;
+    margin-top: 300px;
     flex-direction: column;
-    width: 600px;
+    width: 100%;
   }
 
   .info div {
-    width: 240px;
+    width: 80%;
   }
 
   .iptvimg {
@@ -201,7 +197,7 @@ a {
   }
 
   .contacto {
-    margin-top: 400px;
+    margin-top: 360px;
   }
 }
 .footer {
