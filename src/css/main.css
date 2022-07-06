@@ -183,7 +183,7 @@ a {
   }
 
   .info {
-    margin-top: 300px;
+    margin-top: 500px;
     flex-direction: column;
     width: 100%;
   }
@@ -241,6 +241,11 @@ body {
 
 .nuevo {
   text-decoration: underline;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
