@@ -22,6 +22,10 @@ body {
     background-color: $dark;
 }
 
+.img {
+    pointer-events: none;
+}
+
 .icon {
     vertical-align: middle;
 }

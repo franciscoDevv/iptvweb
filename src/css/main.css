@@ -235,6 +235,10 @@ body {
   background-color: #171717;
 }
 
+.img {
+  pointer-events: none;
+}
+
 .icon {
   vertical-align: middle;
 }
