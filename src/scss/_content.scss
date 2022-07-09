@@ -28,9 +28,15 @@
 
   .btn {
       margin-top: 10px;
-      padding: 9px;
+      padding: 14px;
+      font-size: 20px;
       background-color: $primary;
       border: none;
       color: #fff;
       border-radius: 15px;
+      cursor: pointer;
+  }
+
+  .none {
+    font-size: 20px;
   }
