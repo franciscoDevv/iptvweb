@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: iptvgo.netlify.app/sitemap.xml
