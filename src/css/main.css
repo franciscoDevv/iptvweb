@@ -197,11 +197,11 @@ a {
   }
 
   .iptvimg {
-    height: 150px;
+    height: 95px;
   }
 
   .contacto {
-    margin-top: 360px;
+    margin-top: -18px;
   }
 }
 .footer {
@@ -229,6 +229,76 @@ a {
   height: 40px;
 }
 
+.planes {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cards div {
+  margin: 30px;
+  background-color: #47C1DF;
+  color: white;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.cards div p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.cards div h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.features {
+  text-decoration: underline;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.planes-text {
+  text-align: center;
+  color: #fff;
+}
+
+.contratar {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #171717;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.contratar:hover {
+  text-decoration: underline;
+  transition: 0.4s;
+}
+
+@media only screen and (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .planes {
+    margin-top: 25rem;
+  }
+}
 * {
   padding: 0;
   margin: 0;
